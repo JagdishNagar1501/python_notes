@@ -1,46 +1,46 @@
-dict_var = {"Question_1": "1.What is 25+25.", "Option_1": ['a:', 20 ,'b:', 30 ,'c:', 40 ,'d:', 50] ,"Ans": 50,
-"Question_2": "2.What is 50+50.", "Option_2": ['a:', 100 ,'b:', 90 ,'c:', 80 ,'d:', 50] ,"Ans": 100}
-print(dict_var)
+# dict_var = {"Question_1": "1.What is 25+25.", "Option_1": ['a:', 20 ,'b:', 30 ,'c:', 40 ,'d:', 50] ,"Ans": 50,
+# "Question_2": "2.What is 50+50.", "Option_2": ['a:', 100 ,'b:', 90 ,'c:', 80 ,'d:', 50] ,"Ans": 100}
+# print(dict_var)
 
 
-print("Question !!!")
-print("---------------------------------------------")
-a = dict_var["Question_1"]
-print(a)
-
-# a = dict_var["Option"]
+# print("Question !!!")
+# print("---------------------------------------------")
+# a = dict_var["Question_1"]
 # print(a)
 
-# a = dict_var.keys()
-# print(a)
+# # a = dict_var["Option"]
+# # print(a)
 
-# a = dict_var.values()
+# # a = dict_var.keys()
+# # print(a)
+
+# # a = dict_var.values()
+# # print(b)
+
+# opt = dict_var["Option_1"]
+# print(opt[0], opt[1])
+# print(opt[2], opt[3])
+# print(opt[4], opt[5])
+# print(opt[6], opt[7])
+
+# ans = dict_var["Ans"]
+# print("Answer is:",ans)
+
+# b = dict_var["Question_2"]
 # print(b)
 
-opt = dict_var["Option_1"]
-print(opt[0], opt[1])
-print(opt[2], opt[3])
-print(opt[4], opt[5])
-print(opt[6], opt[7])
+# opt = dict_var["Option_2"]
+# print(opt[0], opt[1])
+# print(opt[2], opt[3])
+# print(opt[4], opt[5])
+# print(opt[6], opt[7])
 
-ans = dict_var["Ans"]
-print("Answer is:",ans)
-
-b = dict_var["Question_2"]
-print(b)
-
-opt = dict_var["Option_2"]
-print(opt[0], opt[1])
-print(opt[2], opt[3])
-print(opt[4], opt[5])
-print(opt[6], opt[7])
-
-ans = dict_var["Ans"]
-print("Answer is:",ans)
+# ans = dict_var["Ans"]
+# print("Answer is:",ans)
 
 
-# list = ["apple", "banana", "cherry"]
-# print(list[:2])
+# # list = ["apple", "banana", "cherry"]
+# # print(list[:2])
 
 
 dict_var = [
