@@ -1,16 +1,36 @@
 data = {}
-question = input('Enter the Question: ')
-data["question"] = question
-Option_1 = input("Enter the Option A:")
-Option_2 = input("Enter the Option B:")
-Option_3 = input("Enter the Option C:")
-Option_4 = input("Enter the Option D:")
-data["Option"] = {'A:', "B:", "C:", "D:"}
-ans = input("Enter the Answer:")
-data["ans"] = ans
-print(data)
 
-# print("Option :--") 
-# print('A :',date['Enter the Option A:'],'\t\tB :',date['Enter the Option B:'])
-# print('C :',date['Enter the Option C:'],'\tD :',date['Enter the Option D:'])
+print("1.Enter the Question:-")
+print("2.Enter the Answer:-")
+
+user_choice = input("What is your choice ? :-")
+if int(user_choice) == 1:
+    question = input('Enter the Question: ')
+    data["question"] = question
+    Option_1 = input("Enter the Option A:")
+    data["A"] = Option_1
+    Option_2 = input("Enter the Option B:")
+    data["B"] = Option_2
+    Option_3 = input("Enter the Option C:")
+    data["C"] = Option_3
+    Option_4 = input("Enter the Option D:")
+    data["D"] = Option_4
+    ans = input("Enter the Answer:")
+    data["ans"] = ans
+
+elif int(user_choice) == 2:
+    print("Option :-")
+    print('A :',data['A'],'\t\tB :',data['B'])
+    print('C :',data['C'],'\t\tD :',data['D'])
+
+    user_ans = input("Enter your ans: ")
+    if user_ans==data['ans']:
+        print("Anser is True")
+    else:
+        print("Anwer is False")
+
+else:
+    print("Invalid Input")
+
+# #start Qiuz
 
