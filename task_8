@@ -1,0 +1,27 @@
+# bank = [{"Bank name": "ICICI",
+#          "Bank Holder name": "Jagdish",
+#          "Bank account amount": "1000"},
+#          {"Bank name":"BOI",
+#           "Bank Holder name": "nagar",
+#           "Bank account amount": "500"
+#          }]
+# for bank_del in bank:
+#     print(bank_del)
+#     print(bank_del["Bank name"])
+#     print(bank_del["Bank account amount"])
+
+
+bank_data = []
+for bank in range(0,2):
+    bank_info = {}
+
+    a = input("What is Bank name:-")
+    bank_info["bank_name"] = a
+    b = input("What is Bank holder name:-")
+    bank_info["bank_holder"] = b
+    c = input("What is account amount:-")
+    bank_info["bank_amount"] = c
+    print(bank_info)
+    bank_data.append(bank_info)
+
+print(bank_data)
